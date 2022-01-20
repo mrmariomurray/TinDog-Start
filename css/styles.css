@@ -123,7 +123,7 @@ h3 {
     font-family: "Ubuntu";
     font-size: 2rem;
     font-weight: bold;
-    padding-bottom: 4.5rem;
+    /* padding-bottom: 4.5rem; */
     /* padding-right: 29.3125rem; */
 }
 
@@ -142,7 +142,7 @@ h3 {
 
 .navbar-nav {
     /* margin: auto; */
-    padding: 0 0 80px 700px;
+    padding: auto auto auto 700px;
 
 
 }
