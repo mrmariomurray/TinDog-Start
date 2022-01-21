@@ -1,6 +1,42 @@
-/* CLONED */
+/* MEDIA BREAKPOINTS */
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
 
-/* Nav */
+    .imageDog {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Montserrat", serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+
+}
+
+h3 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: .75rem;
+    margin: auto auto;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+
+/* NAV */
 #features {
     margin: 50px auto;
 }
@@ -11,59 +47,12 @@
 
 }
 
-body {
-    font-family: "Montserrat", serif;
-}
-
-.fa-bullseye {
-    color: #ef8172;
-}
-
-.fa-bullseye:hover {
-    color: #ff4c68;
-}
-
-.fa-check-circle {
-    color: #ef8172;
-
-}
-
-.fa-check-circle:hover {
-    color: #ff4c68;
-
-}
-
-.fa-heart {
-    color: #ef8172;
-
-}
-
-.fa-heart:hover {
-    color: #ff4c68;
-
-}
-
-
-
-h1 {
-    font-family: "Montserrat";
+.titleMain {
     font-weight: 900;
     font-size: 3.5rem;
-    /* line-height: 1.5; */
-
 }
 
-h2 {
-    font-weight: 700;
-}
 
-h3 {
-    font-family: "Montserrat";
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-top: .75rem;
-    margin: auto auto;
-}
 
 .container-fluid {
     padding: 3% 15%;
@@ -82,9 +71,7 @@ h3 {
 
 .imageDog {
 
-
     transform: rotate(25deg);
-    /* padding-top: 5rem; */
     position: relative;
     z-index: 1;
     margin-bottom: -300px;
@@ -99,23 +86,6 @@ h3 {
 .logoButtonSized {
     height: 20px;
     width: 20px;
-
-}
-
-
-/* Media Break Points */
-@media (max-width: 991px) {
-    #title {
-        text-align: center;
-    }
-
-    .imageDog {
-        position: static;
-        transform: rotate(0);
-
-    }
-
-
 
 }
 
@@ -152,11 +122,16 @@ h3 {
     padding-left: 80%;
 }
 
-p {
-    color: #8f8f8f;
+/* FEATURES */
+.logoFeatures {
+    color: #ef8172;
 }
 
-/* Testimonials */
+.logoFeatures:hover {
+    color: #ff4c68;
+}
+
+/* TESTIMONIALS */
 
 .carousel-item {
     padding: 12% 15% 3%;
@@ -202,7 +177,13 @@ em {
 
 }
 
-/* Pricing */
+/* PRICING */
+
+.cardButton {
+    width: 100%;
+
+}
+
 #pricing {
 
     padding: 100px;
@@ -219,11 +200,11 @@ em {
     color: #000;
 }
 
-.cardButton {
-    width: 100%;
-
+.textPricing {
+    font-weight: 700;
 }
 
+/* FOOTER */
 .copyrightFooter {
     margin: 2rem auto;
     font-weight: 600;
